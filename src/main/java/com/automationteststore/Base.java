@@ -25,12 +25,14 @@ public class Base extends Pom_login{
 
 	public static void getDriver(String type) {
 		if (type.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\git\\Mani1automatiotststore\\Driver\\chromedriver.exe");
-			
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\git\\Mani1automatiotststore\\Driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",	System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
+
 			driver = new ChromeDriver();
 		} else if (type.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", "C:\\Users\\Lenovo\\git\\Mani1automatiotststore\\Driver\\msedgedriver.exe");
-			
+			//System.setProperty("webdriver.edge.driver", "C:\\Users\\Lenovo\\git\\Mani1automatiotststore\\Driver\\msedgedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
+
 			driver = new EdgeDriver();
 		}
 
@@ -100,7 +102,7 @@ public class Base extends Pom_login{
 	public static void screenshot(String name) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File destination = new File("C:\\Users\\Lenovo\\git\\Mani1automatiotststore\\Screenshot\\" + name + ".png");
+		File destination = new File(System.getProperty("user.dir") + "\\Screenshot\\" + name + ".png");
 		FileHandler.copy(source, destination);
 	}
 
