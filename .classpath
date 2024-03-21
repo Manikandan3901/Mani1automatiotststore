@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/apache-freemarker-2.3.32-bin/freemarker.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/ci-environment-10.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/cucumber-core-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/cucumber-expressions-17.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/cucumber-gherkin-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/cucumber-gherkin-messages-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/cucumber-java-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/cucumber-plugin-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/datatable-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/docstring-7.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/gherkin-26.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/html-formatter-20.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/junit-xml-formatter-0.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/messages-22.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/Cucumber jar files/tag-expressions-6.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/allure-cucumber-jvm-2.20.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/allure-java-commons-2.20.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/allure-model-2.20.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/cucumber-core-1.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/cucumber-java-1.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Documents/jar_files (2)/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
