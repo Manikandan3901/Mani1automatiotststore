@@ -122,7 +122,7 @@ public class Automationteststore_stepdefinition extends Base{
 		highlightelements(customername);
 		String strcustomername = customername.getText();
 		FileInputStream f = new FileInputStream(
-				"C:\\Users\\Lenovo\\git\\mani3901automatiotststore\\properties\\config.properties");
+				"C:\\Users\\Lenovo\\git\\Mani1automatiotststore\\properties\\config.properties");
 		Properties prop = new Properties();
 		prop.load(f);
 		String strfirstname = prop.getProperty("First_name");
@@ -175,7 +175,7 @@ public class Automationteststore_stepdefinition extends Base{
 	  highlightelements(customername);
 	  String strcustomername = customername.getText();
 	  FileInputStream f = new FileInputStream(
-				"C:\\Users\\Lenovo\\git\\mani3901automatiotststore\\properties\\config.properties");
+				"C:\\Users\\Lenovo\\git\\Mani1automatiotststore\\properties\\config.properties");
 		Properties prop = new Properties();
 		prop.load(f);
 		String strames = prop.getProperty("First_name", "last_name");
