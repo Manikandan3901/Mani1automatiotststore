@@ -48,8 +48,8 @@ public class Automationteststore_stepdefinition extends Base{
 
 	}
 
-	@When("^i click a login or register$")
-	public void i_click_a_login_or_register_enter_my_details() throws Throwable {
+	@When("^user click a login or register$")
+	public void user_click_a_login_or_register() throws Throwable {
 		WebElement loginele = driver.findElement(By.xpath("//a[text()='Login or register']"));
 		thread(4000);
         actionsclicks(loginele);
@@ -62,7 +62,7 @@ public class Automationteststore_stepdefinition extends Base{
 		
 	}
 	
-	@And("^enter my details submit the registation form$")
+	@And("^enter user details submit the registation form$")
 	public void enter_my_details_submit_the_registation_form() throws Throwable {
 		
 		PageFactory.initElements(driver, Pom_login.class);
@@ -94,7 +94,7 @@ public class Automationteststore_stepdefinition extends Base{
 		log.info("continue clicked");
 	
 	}	
-	@Then("i see a success message$")
+	@Then("user see a success message$")
 	public void i_see_a_success_message() throws Throwable {
 	
 	WebElement acccreated = driver.findElement(By.xpath("//span[text()=' Your Account Has Been Created!']"));

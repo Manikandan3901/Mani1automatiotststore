@@ -3,9 +3,9 @@ Feature: This feature is to place the order in automationteststore webpage
   @login
   Scenario: Register a user for automationteststore
     Given user on the login page
-    When i click a login or register 
-    And enter my details submit the registation form
-    Then i see a success message 
+    When user click a login or register 
+    And enter user details submit the registation form
+    Then user see a success message 
 
   Scenario: validating names
     Given user on the account created page click continue

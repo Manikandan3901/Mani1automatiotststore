@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5872540100,
+  "duration": 3720680100,
   "status": "passed"
 });
 formatter.scenario({
@@ -31,45 +31,45 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "i click a login or register",
+  "name": "user click a login or register",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "enter my details submit the registation form",
+  "name": "enter user details submit the registation form",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "i see a success message",
+  "name": "user see a success message",
   "keyword": "Then "
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.user_on_the_login_page()"
 });
 formatter.result({
-  "duration": 7867112100,
+  "duration": 4800512000,
   "status": "passed"
 });
 formatter.match({
-  "location": "Automationteststore_stepdefinition.i_click_a_login_or_register_enter_my_details()"
+  "location": "Automationteststore_stepdefinition.user_click_a_login_or_register()"
 });
 formatter.result({
-  "duration": 7489535100,
+  "duration": 6367609700,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.enter_my_details_submit_the_registation_form()"
 });
 formatter.result({
-  "duration": 11437365600,
+  "duration": 13857935600,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.i_see_a_success_message()"
 });
 formatter.result({
-  "duration": 118215300,
+  "duration": 104486200,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,21 +99,21 @@ formatter.match({
   "location": "Automationteststore_stepdefinition.user_on_the_account_created_page_click_continue()"
 });
 formatter.result({
-  "duration": 1133624600,
+  "duration": 795081100,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.valid_name_and_surname()"
 });
 formatter.result({
-  "duration": 105660200,
+  "duration": 105853900,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.click_home_to_add_products()"
 });
 formatter.result({
-  "duration": 1477884700,
+  "duration": 918431500,
   "status": "passed"
 });
 formatter.scenario({
@@ -143,21 +143,21 @@ formatter.match({
   "location": "Automationteststore_stepdefinition.user_search_the_products()"
 });
 formatter.result({
-  "duration": 2054211400,
+  "duration": 1273163600,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.products_add_to_cart()"
 });
 formatter.result({
-  "duration": 1663902000,
+  "duration": 1073809500,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.proceed_to_check_out()"
 });
 formatter.result({
-  "duration": 2528053100,
+  "duration": 1622593400,
   "status": "passed"
 });
 formatter.scenario({
@@ -198,32 +198,32 @@ formatter.match({
   "location": "Automationteststore_stepdefinition.user_verify_the_details()"
 });
 formatter.result({
-  "duration": 579915800,
+  "duration": 533321900,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.details_are_correct_click_confirm()"
 });
 formatter.result({
-  "duration": 184189900,
+  "duration": 121788000,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.successfull_order_message_take_scrrenshot_of_the_order()"
 });
 formatter.result({
-  "duration": 2318753400,
+  "duration": 1854293500,
   "status": "passed"
 });
 formatter.match({
   "location": "Automationteststore_stepdefinition.click_continue_button_see_home_page()"
 });
 formatter.result({
-  "duration": 1151330000,
+  "duration": 1007683100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 6904662700,
+  "duration": 6758896200,
   "status": "passed"
 });
 });
